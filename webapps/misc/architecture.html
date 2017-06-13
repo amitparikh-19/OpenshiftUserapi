@@ -1,0 +1,178 @@
+<html>
+<head>
+	<script type="text/javascript" src="../libs/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="../libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../libs/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <link href="../libs/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="../resources/styles/style.css" rel="stylesheet">
+
+</head>
+<title>Architecture</title>
+
+<body>
+<div class="container">
+	<br>
+	<br>
+	<h2>Architecture</h2>
+	<br>
+	<br>
+  <div class="row">
+    <h4>API</h4>
+    <br>
+    <div class="col-md-3">
+		<div class="flow-block">
+    		<a href="#">UserAPI</a><span class="glyphicon glyphicon-triangle-bottom pointer" data-target="#api0" data-toggle="collapse"></span>
+    		<div id="api0" class="collapse">
+    			<ul>
+    				<li><a href="#" class="custom-anchor">userComp</a></li>
+    				<li><a href="#" class="custom-anchor">authComp</a></li>
+    			</ul>
+			</div>
+		</div>
+    </div>
+    <div class="col-md-3">
+ 	 	<div class="flow-block">
+    		<a href="#">WalletAPI</a><span class="glyphicon glyphicon-triangle-bottom pointer" data-target="#api1" data-toggle="collapse"></span>
+ 			<div id="api1" class="collapse">
+    			<ul>
+    				<li><a href="#" class="custom-anchor">walletComp</a></li>
+    				<li><a href="#" class="custom-anchor">authComp</a></li>
+    			</ul>
+			</div>
+ 		</div>
+    </div>
+    <div class="col-md-3">
+ 	 	<div class="flow-block">
+    		<a href="#">WalletTxnAPI</a><span class="glyphicon glyphicon-triangle-bottom pointer" data-target="#api2" data-toggle="collapse"></span>
+ 			<div id="api2" class="collapse">
+    			<ul>
+    				<li><a href="#" class="custom-anchor">waltxnComp</a></li>
+    				<li><a href="#" class="custom-anchor">authComp</a></li>
+    			</ul>
+			</div>
+ 		</div>
+    </div>
+    <div class="col-md-3">
+ 	 	<div class="flow-block">
+    		<a href="#">CahrgeAPI</a><span class="glyphicon glyphicon-triangle-bottom pointer" data-target="#api3" data-toggle="collapse"></span>
+ 			<div id="api3" class="collapse">
+    			<ul>
+    				<li><a href="#" class="custom-anchor">chargeComp</a></li>
+    				<li><a href="#" class="custom-anchor">authComp</a></li>
+    			</ul>
+			</div>
+ 		</div>
+    </div>
+  </div>
+  
+  <br><br>
+  <div class="connecting-line">
+  </div>
+  <br><br>
+  
+  <div class="row">
+    <h4>COMMON COMPONENTS</h4>
+    <br>
+    <div class="col-md-4">
+		<div class="flow-block">
+    		<a href="#">AuthComp</a><span class="glyphicon glyphicon-triangle-bottom pointer" data-target="#srvc0" data-toggle="collapse"></span>
+    		<div id="srvc0" class="collapse">
+    			<ul>
+    				<li><a href="#" class="custom-anchor">UserComp</a></li>
+    			</ul>
+			</div>
+		</div>
+    </div>
+    <div class="col-md-4">
+		<div class="flow-block">
+    		<a href="#">UserComp</a><span class="glyphicon glyphicon-triangle-bottom pointer" data-target="#srvc1" data-toggle="collapse"></span>
+    		<div id="srvc1" class="collapse">
+    			<ul>
+    				<li><a href="#" class="custom-anchor">sqldbconLib</a></li>
+    				<li><a href="#" class="custom-anchor">userFsm</a></li>
+    				<li><a href="#" class="custom-anchor">walletComp</a></li>
+    			</ul>
+			</div>
+		</div>
+    </div>
+    <div class="col-md-4">
+ 	 	<div class="flow-block">
+    		<a href="#">WalletComp</a><span class="glyphicon glyphicon-triangle-bottom pointer"  data-target="#srvc2" data-toggle="collapse"></span>
+    		<div id="srvc2" class="collapse">
+    			<ul>
+    				<li><a href="#" class="custom-anchor">sqldbconLib</a></li>
+    				<li><a href="#" class="custom-anchor">entityLib</a></li>
+    			</ul>
+			</div>
+ 		</div>
+    </div>
+  </div>
+  <br><br>
+  <div class="row">
+    <div class="col-md-2">
+  	</div>
+  	<div class="col-md-4">
+  		<div class="flow-block">
+    		<a href="#">WalletTxnComp</a><span class="glyphicon glyphicon-triangle-bottom pointer" data-target="#srvc3" data-toggle="collapse"></span>
+    		<div id="srvc3" class="collapse">
+    			<ul>
+    				<li><a href="#" class="custom-anchor">sqldbconLib</a></li>
+    				<li><a href="#" class="custom-anchor">walletComp</a></li>
+    				<li><a href="#" class="custom-anchor">chargeComp</a></li>
+    				<li><a href="#" class="custom-anchor">userComp</a></li>
+    				<li><a href="#" class="custom-anchor">tpAdapters</a></li>
+    				
+    			</ul>
+			</div>
+ 		</div>
+  	</div>
+  	<div class="col-md-4">
+  		 <div class="flow-block">
+    		<a href="#">ChargeComp</a><span class="glyphicon glyphicon-triangle-bottom pointer" data-target="#srvc4" data-toggle="collapse"></span>
+    		<div id="srvc4" class="collapse">
+    			<ul>
+    				<li><a href="#" class="custom-anchor">sqldbconLib</a></li>
+    				<li><a href="#" class="custom-anchor">entityLib</a></li>
+    			</ul>
+			</div>
+ 		</div>
+  	</div>
+  	<div class="col-md-2">
+  	</div>
+  </div>
+  <br><br>
+  <div class="connecting-line">
+  </div>
+  <br><br>
+  <div class="row">
+  	<h4>CORE LIBS</h4>
+  	<br>
+    <div class="col-md-3">
+		<div class="flow-block">
+    		<a href="#">EntityLib</a><span class="glyphicon glyphicon-triangle-bottom pointer" data-target="#lib0" data-toggle="collapse"></span>
+    		<div id="lib0" class="collapse">
+    			<ul>
+    				<li><a href="#" class="custom-anchor">karyonLib</a></li>
+    			</ul>
+			</div>
+		</div>
+    </div>
+    <div class="col-md-3">
+ 	 	<div class="flow-block">
+ 	 		<a href="#">SqldbconLib</a>
+ 		</div>
+    </div>
+    <div class="col-md-3">
+ 	 	<div class="flow-block">
+    		<a href="#">KaryonLib</a>
+ 		</div>
+    </div>
+    <div class="col-md-3">
+ 	 	<div class="flow-block">
+    		<a href="#">codeGenerator</a>
+ 		</div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,96 @@
+
+<div class="viewBack" ng-init="accountDetails.init()">
+
+	<form class="form-horizontal container" role="form" name="adminDetails">
+		<h3>Account Details</h3>
+		<br>
+
+		<div class="panel-group" id="accordion">
+			<div class="panel panel-default">
+				<div class="panel-heading" data-toggle="collapse"
+					data-target="#collapseOne">
+					<h4 class="panel-title">
+						<span>General Details</span>
+					</h4>
+				</div>
+				<div id="collapseOne" class="panel-collapse collapse in">
+					<div class="panel-body">
+						<div class="form-group">
+							<label class="col-lg-3 col-sm-3 lheight label-font"
+								translate="general_label_admin_user_id"></label>
+							<div class="col-lg-7">
+								<label class="form-value">{{accountDetails.user.username}}</label>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-lg-3 col-sm-3 lheight label-font"
+								translate="general_label_name"></label>
+							<div class="col-lg-7">
+								<label class="form-value">{{accountDetails.user.name}}</label>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label class="col-lg-3 col-sm-3 lheight label-font"
+								translate=general_label_email></label>
+							<div class="col-lg-7">
+								<label class="form-value">{{accountDetails.user.email}}</label>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label class="col-lg-3 col-sm-3 lheight label-font"
+								translate="general_label_mobile"></label>
+							<div class="col-lg-7">
+								<label class="form-value">{{accountDetails.user.mobile}}</label>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading" data-toggle="collapse"
+					data-target="#collapseTwo">
+					<h4 class="panel-title">
+						<span>Other Details</span>
+					</h4>
+				</div>
+				<div id="collapseTwo" class="panel-collapse collapse in">
+					<div class="panel-body">
+						<div class="form-group">
+							<label class="col-lg-3 col-sm-3 lheight label-font"
+								translate="general_label_state"></label>
+							<div class="col-lg-7">
+								<label class="form-value">{{accountDetails.user.state}}</label>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-lg-3 col-sm-3 lheight label-font"
+								translate="general_label_created"></label>
+							<div class="col-lg-7">
+								<label class="form-value">{{accountDetails.user.created
+									| date: 'yyyy-MM-dd HH:mm:ss'}}</label>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label class="col-lg-3 col-sm-3 lheight label-font"
+								translate="general_label_level"></label>
+							<div class="col-lg-7">
+								<label class="form-value">{{accountDetails.user.level}}</label>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label class="col-lg-3 col-sm-3 lheight label-font"
+								translate="general_label_jobtitle"></label>
+							<div class="col-lg-7">
+								<label class="form-value">{{accountDetails.user.jobtitle}}</label>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</form>
+</div>

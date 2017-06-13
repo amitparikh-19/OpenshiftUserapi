@@ -1,0 +1,48 @@
+<div class="viewBack" ng-init="user.init()">
+	<form class="form-horizontal container" role="form" name="usersCreate">
+
+		<wizard title="Users" route-state="user.routeState"> <wizard-step
+			title="{{'general_wizard_title_info' | translate}}"> <br />
+		<br />
+		<form class="form-horizontal container">
+
+			<entity-manager operation="update">
+			<div ng-include="'modules/users/entity/users-entity.html'"></div>
+			</entity-manager>
+			<br />
+
+		</form>
+
+		</wizard-step> <wizard-step title="{{'general_wizard_title_review' | translate}}"">
+		<br>
+		<br>
+		<form class="form-horizontal container">
+
+			<entity-manager operation="update-view">
+			<div ng-include="'modules/users/entity/users-entity.html'"></div>
+			</entity-manager>
+			<br />
+
+		</form>
+
+
+		</wizard-step> <wizard-step title="{{'general_wizard_title_status' | translate}}"">
+		<form class="form-horizontal container">
+			<br> <br>
+			<response-msg-widget status="user.responseStatus"
+				message="user.statusMessage"></response-msg-widget>
+
+
+			<entity-manager operation="update-view">
+			<div ng-include="'modules/users/entity/users-entity.html'"></div>
+			</entity-manager>
+			<br />
+
+		</form>
+		</wizard-step> <wizard-action-btns save=user.updateUser() cancel=user.cancel()
+			reset=user.reset()></wizard-action-btns> </wizard>
+		<br> <br>
+	</form>
+
+</div>
+

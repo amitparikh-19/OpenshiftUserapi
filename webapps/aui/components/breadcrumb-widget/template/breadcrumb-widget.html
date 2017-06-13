@@ -1,0 +1,10 @@
+<div>
+
+	<ul class="breadcrumb">
+		<li ng-repeat="crumb in crumbs"><span
+			class="glyphicon glyphicon-home pointer" ng-if="crumb=='mains'"
+			ng-click="home()"></span> <span ng-if="crumb!='mains'"
+			style="text-transform: capitalize;">{{crumb}}</span></li>
+	</ul>
+
+</div>

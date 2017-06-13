@@ -1,0 +1,26 @@
+<form class="form-container">
+	<fieldset>
+		<div class="form-group">
+			<div class="inner-addon left-addon">
+				<span class="glyphicon glyphicon-user" aria-hidden="true"></span> <input
+					type="text" class="form-control" ng-model="username" id="usderid"
+					placeholder="Userid">
+			</div>
+		</div>
+		<div class="form-group">
+			<div class="inner-addon left-addon">
+				<span class="glyphicon glyphicon-lock" aria-hidden="true"></span> <input
+					type="password" class="form-control" ng-model="password" id="pwd"
+					placeholder="Password">
+			</div>
+		</div>
+		<center>
+			<button type="submit" class="btn btn-default btn-align"
+				ng-click="doLogin()" ng-disabled="$ctrl.isLoading">
+				<span ng-show="!$ctrl.isLoading">Sign In </span></span> <span
+					ng-show="$ctrl.isLoading">Signing In <span
+					class='glyphicon glyphicon-refresh glyphicon-spin'></span></span>
+			</button>
+		</center>
+	</fieldset>
+</form>

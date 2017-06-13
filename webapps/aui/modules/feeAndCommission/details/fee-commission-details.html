@@ -1,0 +1,28 @@
+
+<form class="form-horizontal container" role="form"
+	name="feeCommissionDetails" data-ng-init="feeCommission.init()">
+	<span class="entityHead">
+		<h3 translate="general_label_fee_commission_details"></h3>
+	</span>
+
+	<bread-crumb class="align-breadcrumb" state="feeCommission.routeState"></bread-crumb>
+	<br> <br>
+	<response-msg-widget status="feeCommission.responseStatus"
+		message="feeCommission.statusMessage"></response-msg-widget>
+	<div class="align-btn-group">
+		<action-btn-widget state="feeCommission.state" tid="fee.tid"
+			showbuttons="feeCommission.showButtons"
+			change-state="feeCommission.stateChange($model)"></action-btn-widget>
+	</div>
+	<br> <br> <br>
+
+	<entity-manager operation="details-view">
+	<div
+		ng-include="'modules/feeAndCommission/entity/fee-commission-entity.html'"></div>
+	</entity-manager>
+
+	<delete-widget entity="feeCommission.entityName"
+		tid="feeCommission.tid"
+		delete-callback="feeCommission.deleteEntity($model)"></delete-widget>
+
+</form>

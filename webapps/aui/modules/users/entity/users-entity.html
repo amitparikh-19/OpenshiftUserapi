@@ -1,0 +1,372 @@
+
+<!-- Username -->
+<div class="form-group" ng-if="operation =='search'">
+	<label class="control-label col-sm-2" for="name"
+		translate="general_label_name"></label>
+	<div class="col-sm-10 col-md-5">
+		<input type="text" class="form-control"
+			ng-model="user.entity.username" id="name"
+			placeholder="{{'general_placeholder_name' | translate}}">
+	</div>
+</div>
+
+<!-- Name -->
+<div class="form-group"
+	ng-if="operation =='create' || operation =='update'">
+	<label class="control-label col-sm-2" for="name"
+		translate="general_label_name"></label>
+	<div class="col-sm-10 col-md-5">
+		<input type="text" class="form-control" ng-model="user.entity.name"
+			id="name" placeholder="{{'general_placeholder_name' | translate}}">
+	</div>
+</div>
+<div class="form-group"
+	ng-if="operation =='create-view' || operation =='update-view' || operation =='details-view'">
+	<label class="control-label col-sm-2" for="name"
+		translate="general_label_name"></label>
+	<div class="col-sm-10 col-md-5">
+		<label class="form-value">{{user.entity.name}}</label>
+	</div>
+</div>
+
+<!-- Username -->
+<div class="form-group" ng-if="operation =='create'">
+	<label class="control-label col-sm-2" for="username"
+		translate="general_label_username"></label>
+	<div class="col-sm-10 col-md-5">
+		<input type="text" class="form-control"
+			ng-model="user.entity.username" id="username"
+			placeholder="{{'general_placeholder_username' | translate}}">
+	</div>
+</div>
+<div class="form-group"
+	ng-if="operation =='create-view' || operation =='details-view'">
+	<label class="control-label col-sm-2" for="name"
+		translate="general_label_username"></label>
+	<div class="col-sm-10 col-md-5">
+		<label class="form-value">{{user.entity.username}}</label>
+	</div>
+</div>
+
+
+<!-- Mobile -->
+<div class="form-group"
+	ng-if="operation =='create' || operation =='update'">
+	<label class="control-label col-sm-2" for="mobile"
+		translate="general_label_mobile"></label>
+	<div class="col-sm-10 col-md-5">
+		<input type="text" class="form-control" ng-model="user.entity.mobile"
+			id="mobile"
+			placeholder="{{'general_placeholder_mobile' | translate}}">
+	</div>
+</div>
+<div class="form-group"
+	ng-if="operation =='create-view' || operation =='update-view' || operation =='details-view'">
+	<label class="control-label col-sm-2" for="name"
+		translate="general_label_mobile"></label>
+	<div class="col-sm-10 col-md-5">
+		<label class="form-value">{{user.entity.mobile}}</label>
+	</div>
+</div>
+
+<!-- Mobile Pin-->
+<div class="form-group" ng-if="operation =='create'">
+	<label class="control-label col-sm-2" for="mobilepin"
+		translate="general_label_mobile_pin"></label>
+	<div class="col-sm-10 col-md-5">
+		<input type="text" class="form-control" ng-model="user.entity.tpin"
+			id="tpin"
+			placeholder="{{'general_placeholder_mobile_pin' | translate}}">
+	</div>
+</div>
+<div class="form-group" ng-if="operation =='create-view'">
+	<label class="control-label col-sm-2" for="name"
+		translate="general_label_mobile_pin"></label>
+	<div class="col-sm-10 col-md-5">
+		<label class="form-value">{{user.entity.tpin}}</label>
+	</div>
+</div>
+
+<!-- Password -->
+<div class="form-group" ng-if="operation =='create'">
+	<label class="control-label col-sm-2" for="pwd"
+		translate="general_label_password"></label>
+	<div class="col-sm-10 col-md-5">
+		<input type="password" class="form-control"
+			ng-model="user.entity.password" id="pwd"
+			placeholder="{{'general_placeholder_password' | translate}}">
+	</div>
+</div>
+<div class="form-group" ng-if="operation =='create-view'">
+	<label class="control-label col-sm-2" for="password"
+		translate="general_label_password"></label>
+	<div class="col-sm-10 col-md-5">
+		<label class="form-value">*********</label>
+	</div>
+</div>
+
+<!-- Email -->
+<div class="form-group"
+	ng-if="operation =='create' || operation =='update'">
+	<label class="control-label col-sm-2" for="pwd"
+		translate="general_label_email"></label>
+	<div class="col-sm-10 col-md-5">
+		<input type="text" class="form-control" ng-model="user.entity.email"
+			id="email" placeholder="{{'general_placeholder_email' | translate}}">
+	</div>
+</div>
+<div class="form-group"
+	ng-if="operation =='create-view' || operation =='update-view' || operation =='details-view'">
+	<label class="control-label col-sm-2" for="name"
+		translate="general_label_email"></label>
+	<div class="col-sm-10 col-md-5">
+		<label class="form-value">{{user.entity.email}}</label>
+	</div>
+</div>
+
+<!-- Email -->
+<div class="form-group"
+	ng-if="operation =='create' || operation =='update'">
+	<label class="control-label col-sm-2" for="pwd"
+		translate="general_label_brand"></label>
+	<div class="col-sm-10 col-md-5">
+		<input type="text" class="form-control" ng-model="user.entity.brand"
+			id="jobtitle"
+			placeholder="{{'general_placeholder_brand' | translate}}">
+	</div>
+</div>
+<div class="form-group"
+	ng-if="operation =='create-view' || operation =='update-view' || operation =='details-view'">
+	<label class="control-label col-sm-2" for="name"
+		translate="general_label_brand"></label>
+	<div class="col-sm-10 col-md-5">
+		<label class="form-value">{{user.entity.brand}}</label>
+	</div>
+</div>
+
+<!-- Job Title -->
+<div class="form-group"
+	ng-if="operation =='create' || operation =='update'">
+	<label class="control-label col-sm-2" for="pwd"
+		translate="general_label_jobtitle"></label>
+	<div class="col-sm-10 col-md-5">
+		<input type="text" class="form-control"
+			ng-model="user.entity.jobtitle" id="brand"
+			placeholder="{{'general_placeholder_job_title' | translate}}">
+	</div>
+</div>
+<div class="form-group"
+	ng-if="operation =='create-view' || operation =='update-view' || operation =='details-view'">
+	<label class="control-label col-sm-2" for="name"
+		translate="general_label_jobtitle"></label>
+	<div class="col-sm-10 col-md-5">
+		<label class="form-value">{{user.entity.jobtitle}}</label>
+	</div>
+</div>
+
+<!-- Type -->
+<div class="form-group"
+	ng-if="operation =='create' || operation =='update' || operation =='search'">
+	<label class="control-label col-sm-2" for="pwd"
+		translate="general_label_type"></label>
+	<div class="col-sm-10 col-md-5">
+		<select class="form-control" ng-model="user.entity.type" id="type">
+			<option value="SuperAdmin" translate="general_label_superadmin"></option>
+			<option value="Merchant" translate="general_label_merchant"></option>
+			<option value="Customer" translate="general_label_customer"></option>
+			<option value="Wsp" translate="general_label_wsp"></option>
+		</select>
+		<!-- <input type="text" class="form-control" ng-model="user.entity.type" id="type" placeholder="{{'general_placeholder_type' | translate}}"> -->
+	</div>
+</div>
+<div class="form-group"
+	ng-if="operation =='create-view' || operation =='update-view' || operation =='details-view'">
+	<label class="control-label col-sm-2" for="name"
+		translate="general_label_type"></label>
+	<div class="col-sm-10 col-md-5">
+		<label class="form-value">{{user.entity.type}}</label>
+	</div>
+</div>
+
+<!-- Sub-Type -->
+<div class="form-group"
+	ng-if="operation =='create' || operation =='update'">
+	<label class="control-label col-sm-2" for="pwd"
+		translate="general_label_subtype"></label>
+	<div class="col-sm-10 col-md-5">
+		<!-- <input type="text" class="form-control" ng-model="user.entity.subtype" id="subtype" placeholder="{{'general_placeholder_subtype' | translate}}"> -->
+		<select class="form-control" ng-model="user.entity.subtype"
+			id="subtype">
+			<option value="SuperAdmin" translate="general_label_superadmin"
+				ng-show="user.entity.type=='SuperAdmin'"></option>
+			<option value="SuperAgent" translate="general_label_superAgent"
+				ng-show="user.entity.type=='Merchant'"></option>
+			<option value="Agent" translate="general_label_agent"
+				ng-show="user.entity.type=='Merchant'"></option>
+			<option value="Branch" translate="general_label_branch"
+				ng-show="user.entity.type=='Merchant'"></option>
+			<option value="Customer" translate="general_label_customer"
+				ng-show="user.entity.type=='Customer'"></option>
+			<option value="Wsp" translate="general_label_wsp"
+				ng-show="user.entity.type=='Wsp'"></option>
+		</select>
+	</div>
+</div>
+
+<div class="form-group"
+	ng-if="operation =='create-view' || operation =='update-view' || operation =='details-view'">
+	<label class="control-label col-sm-2" for="name"
+		translate="general_label_subtype"></label>
+	<div class="col-sm-10 col-md-5">
+		<label class="form-value">{{user.entity.subtype}}</label>
+	</div>
+</div>
+
+<!-- Level -->
+<div class="form-group"
+	ng-if="operation =='create' || operation =='update'">
+	<label class="control-label col-sm-2" for="pwd"
+		translate="general_label_level"></label>
+	<div class="col-sm-10 col-md-5">
+		<input type="text" class="form-control" ng-model="user.entity.level"
+			id="subtype"
+			placeholder="{{'general_placeholder_level' | translate}}">
+	</div>
+</div>
+<div class="form-group"
+	ng-if="operation =='create-view' || operation =='update-view' || operation =='details-view'">
+	<label class="control-label col-sm-2" for="name"
+		translate="general_label_level"></label>
+	<div class="col-sm-10 col-md-5">
+		<label class="form-value">{{user.entity.level}}</label>
+	</div>
+</div>
+
+<!-- State -->
+<div class="form-group"
+	ng-if="operation =='create' || operation =='update'">
+	<label class="control-label col-sm-2" for="pwd"
+		translate="general_label_state"></label>
+	<div class="col-sm-10 col-md-5">
+		<input type="text" class="form-control" ng-model="user.entity.state"
+			id="state" placeholder="{{'general_placeholder_state' | translate}}">
+	</div>
+</div>
+<div class="form-group"
+	ng-if="operation =='create-view' || operation =='update-view' || operation =='details-view'">
+	<label class="control-label col-sm-2" for="name"
+		translate="general_label_state"></label>
+	<div class="col-sm-10 col-md-5">
+		<label class="form-value">{{user.entity.state}}</label>
+	</div>
+</div>
+
+<!-- Parent -->
+<div class="form-group"
+	ng-if="operation =='create' || operation =='update'">
+	<label class="control-label col-sm-2" for="pwd"
+		translate="general_label_parent"></label>
+	<div class="col-sm-10 col-md-5">
+		<input type="text" class="form-control" ng-model="user.entity.parent"
+			id="parent"
+			placeholder="{{'general_placeholder_parent' | translate}}">
+	</div>
+</div>
+<div class="form-group"
+	ng-if="operation =='create-view' || operation =='update-view' || operation =='details-view'">
+	<label class="control-label col-sm-2" for="parent"
+		translate="general_label_parent"></label>
+	<div class="col-sm-10 col-md-5">
+		<label class="form-value">{{user.entity.parent}}</label>
+	</div>
+</div>
+
+<!-- Root -->
+<div class="form-group"
+	ng-if="operation =='create' || operation =='update'">
+	<label class="control-label col-sm-2" for="pwd"
+		translate="general_label_root"></label>
+	<div class="col-sm-10 col-md-5">
+		<input type="text" class="form-control" ng-model="user.entity.root"
+			id="root" placeholder="{{'general_placeholder_root' | translate}}">
+	</div>
+</div>
+<div class="form-group"
+	ng-if="operation =='create-view' || operation =='update-view' || operation =='details-view'">
+	<label class="control-label col-sm-2" for="name"
+		translate="general_label_root"></label>
+	<div class="col-sm-10 col-md-5">
+		<label class="form-value">{{user.entity.root}}</label>
+	</div>
+</div>
+
+<!-- Account Non Expired -->
+<div class="form-group"
+	ng-if="operation =='create' || operation =='update'">
+	<label class="control-label col-sm-2" for="accountNonExpired"
+		translate="general_label_acoount_non_expired"></label>
+	<div class="col-sm-10 col-md-5">
+		<input type="text" class="form-control"
+			ng-model="user.entity.accountNonExpired" id="accountNonExpired"
+			placeholder="{{'general_placeholder_acc_non_expired' | translate}}">
+	</div>
+</div>
+<div class="form-group"
+	ng-if="operation =='create-view' || operation =='update-view' || operation =='details-view'">
+	<label class="control-label col-sm-2" for="name"
+		translate="general_label_acoount_non_expired"></label>
+	<div class="col-sm-10 col-md-5">
+		<label class="form-value">{{user.entity.accountNonExpired}}</label>
+	</div>
+</div>
+
+<!-- Account Non Expired -->
+<div class="form-group"
+	ng-if="operation =='create' || operation =='update'">
+	<label class="control-label col-sm-2" for="accountNonLocked"
+		translate="general_label_acoount_non_locked"></label>
+	<div class="col-sm-10 col-md-5">
+		<input type="text" class="form-control"
+			ng-model="user.entity.accountNonLocked" id="accountNonLocked"
+			placeholder="{{'general_placeholder_acc_non_locked' | translate}}">
+	</div>
+</div>
+<div class="form-group"
+	ng-if="operation =='create-view' || operation =='update-view' || operation =='details-view'">
+	<label class="control-label col-sm-2" for="name"
+		translate="general_label_acoount_non_locked"></label>
+	<div class="col-sm-10 col-md-5">
+		<label class="form-value">{{user.entity.accountNonLocked}}</label>
+	</div>
+</div>
+
+<!-- Account Non Expired -->
+<div class="form-group"
+	ng-if="operation =='create' || operation =='update'">
+	<label class="control-label col-sm-2" for="accountNonLocked"
+		translate="general_label_credentials_non_expired"></label>
+	<div class="col-sm-10 col-md-5">
+		<input type="text" class="form-control"
+			ng-model="user.entity.credentialsNonExpired"
+			id="credentialsNonExpired"
+			placeholder="{{'general_placeholder_credens_non-expired' | translate}}">
+	</div>
+</div>
+<div class="form-group"
+	ng-if="operation =='create-view' || operation =='update-view' || operation =='details-view'">
+	<label class="control-label col-sm-2" for="name"
+		translate="general_label_credentials_non_expired"></label>
+	<div class="col-sm-10 col-md-5">
+		<label class="form-value">{{user.entity.credentialsNonExpired}}</label>
+	</div>
+</div>
+
+<!-- Created -->
+<div class="form-group" ng-if="operation =='details-view'">
+	<label class="control-label col-sm-2" for="name"
+		translate="general_label_created"></label>
+	<div class="col-sm-10 col-md-5">
+		<label class="form-value">{{user.entity.created | date:
+			'yyyy-MM-dd HH:mm:ss'}}</label>
+	</div>
+</div>

@@ -1,0 +1,66 @@
+<form class="form-horizontal container" role="form" name="userList"
+	ng-init="user.init()">
+
+	<span class="entityHead">
+		<h3 translate="genearl_label_users"></h3> <response-msg-widget
+			status="user.responseStatus" message="user.statusMessage"></response-msg-widget>
+	</span>
+
+	<bread-crumb class="align-breadcrumb" state="user.routeState"></bread-crumb>
+
+	<action-btn-widget class="align-btn-group" state="user.state"
+		showbuttons="user.showButtons" query="user.query"
+		myvalue="user.myvalue" tid="user.tid"
+		change-state="user.stateChange($model)"></action-btn-widget>
+
+	<br> <br>
+	<div class="table-responsive">
+		<table class="table table-borderless">
+			<thead>
+				<tr>
+					<th translate="general_label_username"></th>
+					<th translate="general_label_mobile"></th>
+					<th translate="general_label_email"></th>
+					<th translate="general_label_state"></th>
+					<th translate="general_label_type"></th>
+					<th translate="general_label_created"
+						ng-click="user.sort('created')"></th>
+					<th translate="general_label_level"></th>
+				</tr>
+			</thead>
+			<tr ng-repeat="userRec in user.list.content"
+				id="row-{{userRec.username}}" ng-click="user.selectedRow(userRec)">
+				<td>{{userRec.username}}</td>
+				<td>{{userRec.mobile}}</td>
+				<td>{{userRec.email}}</td>
+				<td>{{userRec.state}}</td>
+				<td>{{userRec.type}}</td>
+				<td>{{userRec.created | date: 'yyyy-MM-dd HH:mm:ss'}}</td>
+				<td>{{userRec.level}}</td>
+			</tr>
+		</table>
+	</div>
+
+	<delete-widget entity="user.entity" tid="user.tid"
+		delete-callback="user.deleteEntity($model)"></delete-widget>
+
+	<div ng-include="'modules/users/search/users-search.html'"></div>
+
+
+	<div class="row">
+		<!--   <div class="text-center">
+ -->
+		<!-- <ul uib-pager total-items="user.list.totalElements" ng-model="user.list.number" ng-click="users.changePage()"></ul>
+ -->
+		<ul class="pager">
+			<li class="previous"><button class="btn btn-default"
+					ng-click="user.changePage('prev')" ng-disabled="user.list.first"
+					translate="general_label_previous"></button></li>
+			<li class="next"><button class="btn btn-default"
+					ng-click="user.changePage('next')" ng-disabled="user.list.last"
+					translate="general_label_next"></button></li>
+		</ul>
+		<!--  	</div>
+ -->
+	</div>
+</form>

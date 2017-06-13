@@ -1,0 +1,95 @@
+<br>
+<br>
+<div class="row">
+	<div class="col-md-6" ng-init="txfr.init()">
+		<div class="floating" ng-show="txfr.showResponseErrorMsg==null">
+			<form class="form-horizontal mobHeight" role="form" name="frmTxfr">
+				<br>
+				<center>
+					<b>Merchant Transfer</b>
+				</center>
+				<br>
+				<div class="fieldwid mobWidth">
+					<div class="form-group" show-errors>
+						<label class="col-lg-3 col-sm-3 setcredlabelheight">Select
+							Source Merchant</label>
+						<div class="col-lg-7 col-sm-7">
+							<select name="merchant" ng-model="src"
+								class="form-control text-control"
+								ng-options="merchant.name for merchant in txfr.merchList track by merchant.username">
+							</select>
+						</div>
+					</div>
+					<div class="form-group" show-errors>
+						<label class="col-lg-3 col-sm-3 setcredlabelheight">Select
+							Destination Merchant</label>
+						<div class="col-lg-7 col-sm-7">
+							<select name="merchant" ng-model="dest"
+								class="form-control text-control"
+								ng-options="merchant.name for merchant in txfr.merchList track by merchant.username">
+							</select>
+						</div>
+						<p class="col-lg-3 col-sm-3 setcredlabelheight"
+							ng-if="src.username==dest.username && src!= undefined && dest != undefined">
+							<span class="glyphicon glyphicon-exclamation-sign"></span>&nbsp;
+							Source and Destination cannot be same
+						</p>
+					</div>
+					<div class="form-group" show-errors>
+						<label class="col-lg-3 col-sm-3 setcredlabelheight">Amount</label>
+						<div class="col-lg-7 col-sm-7">
+							<input id="amt" name="amt" type="text"
+								class="form-control text-control" ng-model="amount" required>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div>
+					<center>
+						<button id="btntoup" type=submit name="btntoup" class="btn"
+							ng-click="txfr.doTxfr()"
+							ng-disabled="txfr.isLoading && frmTxfr.$invalid">Transfer</button>
+					</center>
+				</div>
+			</form>
+		</div>
+		<div class="floating" ng-show="txfr.showResponseErrorMsg!=null">
+			<form class="form-horizontal mobHeight" role="form" name="frmTopup">
+				<br>
+				<center>
+					<b>Merchant Transfer</b>
+				</center>
+				<br> <br>
+				<div class="message">
+					<p>{{txfr.showResponseErrorMsg}}</p>
+				</div>
+				<br> <br>
+				<div>
+					<center>
+						<button id="btntoup" type=submit name="btntoup" class="btn"
+							ng-click="txfr.gotoTxfr()">Ok</button>
+					</center>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<div class="col-md-6">
+		<div class="floating">
+			<form class="form-horizontal mobHeight" role="form" name="frmTxfr">
+				<br>
+				<center>
+					<b>Destination Merchant Handset</b>
+				</center>
+				<br> <br>
+				<div class="message" ng-show="txfr.showResponseMsg!=null">
+					<p>{{txfr.showResponseMsg}}</p>
+					<p>Transaction ID : {{txfr.response.txnId}}</p>
+					<p ng-if="txfr.response.feePaid">Fee : {{txfr.response.fee}}</p>
+					<p ng-if="txfr.response.commPaid">Commission :
+						{{txfr.response.commission}}</p>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>

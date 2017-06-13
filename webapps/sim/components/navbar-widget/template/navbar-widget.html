@@ -1,0 +1,16 @@
+
+<nav class="navbar navbar-fixed-left navbar-minimal animate"
+	role="navigation">
+	<div class="navbar-toggler animate">
+		<span class="menu-icon"></span>
+	</div>
+	<ul class="navbar-menu animate">
+		<li ng-repeat="nav in navItems" ng-click="methodCallback(nav.navItem)">
+			<a class="animate" ui-sref="{{nav.state}}"> <span
+				class="desc animate"> {{nav.navItem}} </span> <span
+				class="glyphicon {{nav.glyph}}"></span>
+		</a>
+		</li>
+
+	</ul>
+</nav>
