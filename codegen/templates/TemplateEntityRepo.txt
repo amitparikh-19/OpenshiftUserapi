@@ -1,8 +1,0 @@
-package com.kd.apps.repo;
-
-import com.kd.apps.model.TemplateEntity;
-
-
-public interface TemplateEntityRepo extends BaseRepo<TemplateEntity, ID> {
-
-}

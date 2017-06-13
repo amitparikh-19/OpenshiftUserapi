@@ -23,9 +23,6 @@
 		<module>authcomp</module>
 		<module>userfsm</module>
 		<module>userapi</module>
-		<module>demoinit</module>
-		<module>webapps</module>
-		<module>codegen</module>
 	</modules>
 
 	<properties>

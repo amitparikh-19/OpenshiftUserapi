@@ -1,8 +1,0 @@
-{
-	"login_portal_name": "Web Portal",
-	"login_portal_message": "Enter username and password to log on:",
-	"login_username": "Username",
-	"login_password": "Password",
-	"login_signin": "Sign in!",
-	"general_label_admin_user_id": "User ID"
-}
