@@ -1,0 +1,101 @@
+package com.kd.apps.apis;
+
+import org.jbehave.core.annotations.Given;
+import org.jbehave.core.annotations.Then;
+import org.jbehave.core.annotations.When;
+
+import com.kd.apps.TestProp;
+import com.kd.apps.steps.AuthApiTestStep;
+import com.kd.apps.steps.TemplateEntityApiTestSteps;
+
+import net.thucydides.core.annotations.Steps;
+
+public class TemplateEntityApiTest {
+
+	String url;
+	Long count;
+	String xauthtoken;
+
+	@Steps
+	AuthApiTestStep authApiTestStep;
+
+	@Steps
+	TemplateEntityApiTestSteps templateEntityApiTestSteps;
+
+	@Given("user as '$userid' and password as '$password' and restFul api url for TemplateEntity '$apiURL'")
+	public void given(String userid, String password, String apiUrl) {
+	    TestProp.initTestProp();
+		TestProp.setBaseUrl();
+		TestProp.setApiUrl(apiUrl);
+		this.url = TestProp.getBaseUrl() + TestProp.getApiUrl();
+		this.xauthtoken = authApiTestStep.authenticate(userid, password);
+		TestProp.setXauthtoken(this.xauthtoken);
+	}
+
+	@When("http POST request is sent for TemplateEntity")
+	public void whenCreate() {
+		templateEntityApiTestSteps.create(this.url, this.xauthtoken);
+	}
+
+	@Then("TemplateEntity created")
+	public void thenCreate() {
+		templateEntityApiTestSteps.testEntity();
+	}
+
+	@Given("X-AUTH-TOKEN and a restFul api url for TemplateEntity")
+	public void given() {
+		TestProp.setBaseUrl();
+		this.url = TestProp.getBaseUrl() + TestProp.getApiUrl();
+		this.xauthtoken = TestProp.getXauthtoken();
+	}
+
+	@When("http GET request is sent with unique id for TemplateEntity")
+	public void whenReadOne() {
+		templateEntityApiTestSteps.readOne(this.url, this.xauthtoken);
+	}
+
+	@Then("TemplateEntity record with given id is fetched")
+	public void thenReadOne() {
+		templateEntityApiTestSteps.testEntity();
+	}
+
+	@When("http GET request is sent for TemplateEntity")
+	public void whenReadAll() {
+		templateEntityApiTestSteps.readAll(this.url, this.xauthtoken);
+	}
+
+	@Then("all TemplateEntity records are fetched")
+	public void thenReadAll() {
+		templateEntityApiTestSteps.testCount();
+	}
+
+	@When("http GET request is sent with sorting and pageable parameters for TemplateEntity")
+	public void whenReadAllPageable() {
+		templateEntityApiTestSteps.readAllPageable(this.url, this.xauthtoken);
+	}
+
+	@Then("TemplateEntity records as per the pageable and sort parameters are fetched")
+	public void thenReadAllPageable() {
+		templateEntityApiTestSteps.testCount();
+	}
+
+	@When("http PUT request is sent with unique id and data to be changed for TemplateEntity")
+	public void whenUpdate() {
+		templateEntityApiTestSteps.update(this.url, this.xauthtoken);
+	}
+
+	@Then("TemplateEntity record is updated")
+	public void thenUpdate() {
+		templateEntityApiTestSteps.testUpdate();
+	}
+
+	@When("http DELETE request is sent with unique id for TemplateEntity")
+	public void whenDelete() {
+		templateEntityApiTestSteps.delete(this.url, this.xauthtoken);
+	}
+
+	@Then("TemplateEntity record is deleted")
+	public void thenDelete() {
+		templateEntityApiTestSteps.testNullEntity();
+	}
+}

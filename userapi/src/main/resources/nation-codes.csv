@@ -1,0 +1,250 @@
+id,name,iso3,ids,currencycode,currencyname,languages,continent,capital,notes
+AF,Afghanistan,AFG,93,AFN,Afghani,"fa-AF,ps,uz-AF,tk",AS,Kabul,Independent
+AL,Albania,ALB,355,ALL,Lek,"sq,el",EU,Tirana,Independent
+DZ,Algeria,DZA,213,DZD,Algerian Dinar,ar-DZ,AF,Algiers,Independent
+AS,American Samoa,ASM,1-684,USD,US Dollar,"en-AS,sm,to",OC,Pago Pago,Territory of US
+AD,Andorra,AND,376,EUR,Euro,ca,EU,Andorra la Vella,Independent
+AO,Angola,AGO,244,AOA,Kwanza,pt-AO,AF,Luanda,Independent
+AI,Anguilla,AIA,1-264,XCD,East Caribbean Dollar,en-AI,NA,The Valley,Territory of GB
+AQ,Antarctica,ATA,672,,,,AN,,International
+AG,Antigua & Barbuda,ATG,1-268,XCD,East Caribbean Dollar,en-AG,NA,St. John's,Independent
+AR,Argentina,ARG,54,ARS,Argentine Peso,"es-AR,en,it,de,fr,gn",SA,Buenos Aires,Independent
+AM,Armenia,ARM,374,AMD,Armenian Dram,hy,AS,Yerevan,Independent
+AW,Aruba,ABW,297,AWG,Aruban Florin,"nl-AW,es,en",NA,Oranjestad,Part of NL
+AU,Australia,AUS,61,AUD,Australian Dollar,en-AU,OC,Canberra,Independent
+AT,Austria,AUT,43,EUR,Euro,"de-AT,hr,hu,sl",EU,Vienna,Independent
+AZ,Azerbaijan,AZE,994,AZN,Azerbaijanian Manat,"az,ru,hy",AS,Baku,Independent
+BS,Bahamas,BHS,1-242,BSD,Bahamian Dollar,en-BS,NA,Nassau,Independent
+BH,Bahrain,BHR,973,BHD,Bahraini Dinar,"ar-BH,en,fa,ur",AS,Manama,Independent
+BD,Bangladesh,BGD,880,BDT,Taka,"bn-BD,en",AS,Dhaka,Independent
+BB,Barbados,BRB,1-246,BBD,Barbados Dollar,en-BB,NA,Bridgetown,Independent
+BY,Belarus,BLR,375,BYR,Belarussian Ruble,"be,ru",EU,Minsk,Independent
+BE,Belgium,BEL,32,EUR,Euro,"nl-BE,fr-BE,de-BE",EU,Brussels,Independent
+BZ,Belize,BLZ,501,BZD,Belize Dollar,"en-BZ,es",NA,Belmopan,Independent
+BJ,Benin,BEN,229,XOF,CFA Franc BCEAO,fr-BJ,AF,Porto-Novo,Independent
+BM,Bermuda,BMU,1-441,BMD,Bermudian Dollar,"en-BM,pt",NA,Hamilton,Territory of GB
+BT,Bhutan,BTN,975,INR,Indian Rupee,dz,AS,Thimphu,Independent
+BO,Bolivia,BOL,591,BOB,Boliviano,"es-BO,qu,ay",SA,Sucre,Independent
+BA,Bosnia,BIH,387,BAM,Convertible Mark,"bs,hr-BA,sr-BA",EU,Sarajevo,Independent
+BW,Botswana,BWA,267,BWP,Pula,"en-BW,tn-BW",AF,Gaborone,Independent
+BV,Bouvet Island,BVT,47,,,,AN,,Territory of NO
+BR,Brazil,BRA,55,BRL,Brazilian Real,"pt-BR,es,en,fr",SA,Brasilia,Independent
+IO,British Indian Ocean Territory,IOT,246,,,en-IO,AS,Diego Garcia,Territory of GB
+VG,British Virgin Islands,VGB,1-284,USD,US Dollar,en-VG,NA,Road Town,Territory of GB
+BN,Brunei,BRN,673,BND,Brunei Dollar,"ms-BN,en-BN",AS,Bandar Seri Begawan,Independent
+BG,Bulgaria,BGR,359,BGN,Bulgarian Lev,"bg,tr-BG,rom",EU,Sofia,Independent
+BF,Burkina Faso,BFA,226,XOF,CFA Franc BCEAO,fr-BF,AF,Ouagadougou,Independent
+BI,Burundi,BDI,257,BIF,Burundi Franc,"fr-BI,rn",AF,Bujumbura,Independent
+KH,Cambodia,KHM,855,KHR,Riel,"km,fr,en",AS,Phnom Penh,Independent
+CM,Cameroon,CMR,237,XAF,CFA Franc BEAC,"en-CM,fr-CM",AF,Yaounde,Independent
+CA,Canada,CAN,1,CAD,Canadian Dollar,"en-CA,fr-CA,iu",NA,Ottawa,Independent
+CV,Cape Verde,CPV,238,CVE,Cabo Verde Escudo,pt-CV,AF,Praia,Independent
+BQ,Caribbean Netherlands,BES,599,USD,US Dollar,"nl,pap,en",NA,,Part of NL
+KY,Cayman Islands,CYM,1-345,KYD,Cayman Islands Dollar,en-KY,NA,George Town,Territory of GB
+CF,Central African Republic,CAF,236,XAF,CFA Franc BEAC,"fr-CF,sg,ln,kg",AF,Bangui,Independent
+TD,Chad,TCD,235,XAF,CFA Franc BEAC,"fr-TD,ar-TD,sre",AF,N'Djamena,Independent
+CL,Chile,CHL,56,CLP,Chilean Peso,es-CL,SA,Santiago,Independent
+CN,China,CHN,86,CNY,Yuan Renminbi,"zh-CN,yue,wuu,dta,ug,za",AS,Beijing,Independent
+CX,Christmas Island,CXR,61,,,"en,zh,ms-CC",AS,Flying Fish Cove,Territory of AU
+CC,Cocos (Keeling) Islands,CCK,61,,,"ms-CC,en",AS,West Island,Territory of AU
+CO,Colombia,COL,57,COP,Colombian Peso,es-CO,SA,Bogota,Independent
+KM,Comoros,COM,269,KMF,Comoro Franc,"ar,fr-KM",AF,Moroni,Independent
+CG,Congo - Brazzaville,COG,242,XAF,CFA Franc BEAC,"fr-CG,kg,ln-CG",AF,Brazzaville,Independent
+CD,Congo - Kinshasa,COD,243,CDF,Congolese Franc,"fr-CD,ln,kg",AF,Kinshasa,Independent
+CK,Cook Islands,COK,682,NZD,New Zealand Dollar,"en-CK,mi",OC,Avarua,Associated with NZ
+CR,Costa Rica,CRI,506,CRC,Costa Rican Colon,"es-CR,en",NA,San Jose,Independent
+HR,Croatia,HRV,385,HRK,Croatian Kuna,"hr-HR,sr",EU,Zagreb,Independent
+CU,Cuba,CUB,53,CUP,Cuban Peso,es-CU,NA,Havana,Independent
+CW,Curaçao,CUW,599,ANG,Netherlands Antillean Guilder,"nl,pap",NA,Willemstad,Part of NL
+CY,Cyprus,CYP,357,EUR,Euro,"el-CY,tr-CY,en",EU,Nicosia,Independent
+CZ,Czech Republic,CZE,420,CZK,Czech Koruna,"cs,sk",EU,Prague,Independent
+CI,Côte d’Ivoire,CIV,225,XOF,CFA Franc BCEAO,fr-CI,AF,Yamoussoukro,Independent
+DK,Denmark,DNK,45,DKK,Danish Krone,"da-DK,en,fo,de-DK",EU,Copenhagen,Independent
+DJ,Djibouti,DJI,253,DJF,Djibouti Franc,"fr-DJ,ar,so-DJ,aa",AF,Djibouti,Independent
+DM,Dominica,DMA,1-767,XCD,East Caribbean Dollar,en-DM,NA,Roseau,Independent
+DO,Dominican Republic,DOM,"1-809,1-829,1-849",DOP,Dominican Peso,es-DO,NA,Santo Domingo,Independent
+EC,Ecuador,ECU,593,USD,US Dollar,es-EC,SA,Quito,Independent
+EG,Egypt,EGY,20,EGP,Egyptian Pound,"ar-EG,en,fr",AF,Cairo,Independent
+SV,El Salvador,SLV,503,USD,US Dollar,es-SV,NA,San Salvador,Independent
+GQ,Equatorial Guinea,GNQ,240,XAF,CFA Franc BEAC,"es-GQ,fr",AF,Malabo,Independent
+ER,Eritrea,ERI,291,ERN,Nakfa,"aa-ER,ar,tig,kun,ti-ER",AF,Asmara,Independent
+EE,Estonia,EST,372,EUR,Euro,"et,ru",EU,Tallinn,Independent
+ET,Ethiopia,ETH,251,ETB,Ethiopian Birr,"am,en-ET,om-ET,ti-ET,so-ET,sid",AF,Addis Ababa,Independent
+FK,Falkland Islands,FLK,500,FKP,Falkland Islands Pound,en-FK,SA,Stanley,Territory of GB
+FO,Faroe Islands,FRO,298,,,"fo,da-FO",EU,Torshavn,Part of DK
+FJ,Fiji,FJI,679,FJD,Fiji Dollar,"en-FJ,fj",OC,Suva,Independent
+FI,Finland,FIN,358,EUR,Euro,"fi-FI,sv-FI,smn",EU,Helsinki,Independent
+FR,France,FRA,33,EUR,Euro,"fr-FR,frp,br,co,ca,eu,oc",EU,Paris,Independent
+GF,French Guiana,GUF,594,EUR,Euro,fr-GF,SA,Cayenne,Part of FR
+PF,French Polynesia,PYF,689,XPF,CFP Franc,"fr-PF,ty",OC,Papeete,Territory of FR
+TF,French Southern Territories,ATF,262,,,fr,AN,Port-aux-Francais,Territory of FR
+GA,Gabon,GAB,241,XAF,CFA Franc BEAC,fr-GA,AF,Libreville,Independent
+GM,Gambia,GMB,220,GMD,Dalasi,"en-GM,mnk,wof,wo,ff",AF,Banjul,Independent
+GE,Georgia,GEO,995,GEL,Lari,"ka,ru,hy,az",AS,Tbilisi,Independent
+DE,Germany,DEU,49,EUR,Euro,de,EU,Berlin,Independent
+GH,Ghana,GHA,233,GHS,Ghana Cedi,"en-GH,ak,ee,tw",AF,Accra,Independent
+GI,Gibraltar,GIB,350,GIP,Gibraltar Pound,"en-GI,es,it,pt",EU,Gibraltar,Territory of GB
+GR,Greece,GRC,30,EUR,Euro,"el-GR,en,fr",EU,Athens,Independent
+GL,Greenland,GRL,299,DKK,Danish Krone,"kl,da-GL,en",NA,Nuuk,Part of DK
+GD,Grenada,GRD,1-473,XCD,East Caribbean Dollar,en-GD,NA,St. George's,Independent
+GP,Guadeloupe,GLP,590,EUR,Euro,fr-GP,NA,Basse-Terre,Part of FR
+GU,Guam,GUM,1-671,USD,US Dollar,"en-GU,ch-GU",OC,Hagatna,Territory of US
+GT,Guatemala,GTM,502,GTQ,Quetzal,es-GT,NA,Guatemala City,Independent
+GG,Guernsey,GGY,44,GBP,Pound Sterling,"en,fr",EU,St Peter Port,Crown dependency of GB
+GN,Guinea,GIN,224,GNF,Guinea Franc,fr-GN,AF,Conakry,Independent
+GW,Guinea-Bissau,GNB,245,XOF,CFA Franc BCEAO,"pt-GW,pov",AF,Bissau,Independent
+GY,Guyana,GUY,592,GYD,Guyana Dollar,en-GY,SA,Georgetown,Independent
+HT,Haiti,HTI,509,USD,US Dollar,"ht,fr-HT",NA,Port-au-Prince,Independent
+HM,Heard & McDonald Islands,HMD,672,,,,AN,,Territory of AU
+HN,Honduras,HND,504,HNL,Lempira,es-HN,NA,Tegucigalpa,Independent
+HK,Hong Kong,HKG,852,HKD,Hong Kong Dollar,"zh-HK,yue,zh,en",AS,Hong Kong,Part of CN
+HU,Hungary,HUN,36,HUF,Forint,hu-HU,EU,Budapest,Independent
+IS,Iceland,ISL,354,ISK,Iceland Krona,"is,en,de,da,sv,no",EU,Reykjavik,Independent
+IN,India,IND,91,INR,Indian Rupee,"en-IN,hi,bn,te,mr,ta,ur,gu,kn,ml,or,pa,as,bh,sat,ks,ne,sd,kok,doi,mni,sit,sa,fr,lus,inc",AS,New Delhi,Independent
+ID,Indonesia,IDN,62,IDR,Rupiah,"id,en,nl,jv",AS,Jakarta,Independent
+IR,Iran,IRN,98,IRR,Iranian Rial,"fa-IR,ku",AS,Tehran,Independent
+IQ,Iraq,IRQ,964,IQD,Iraqi Dinar,"ar-IQ,ku,hy",AS,Baghdad,Independent
+IE,Ireland,IRL,353,EUR,Euro,"en-IE,ga-IE",EU,Dublin,Independent
+IM,Isle of Man,IMN,44,GBP,Pound Sterling,"en,gv",EU,Douglas,Crown dependency of GB
+IL,Israel,ISR,972,ILS,New Israeli Sheqel,"he,ar-IL,en-IL,",AS,Jerusalem,Independent
+IT,Italy,ITA,39,EUR,Euro,"it-IT,de-IT,fr-IT,sc,ca,co,sl",EU,Rome,Independent
+JM,Jamaica,JAM,1-876,JMD,Jamaican Dollar,en-JM,NA,Kingston,Independent
+JP,Japan,JPN,81,JPY,Yen,ja,AS,Tokyo,Independent
+JE,Jersey,JEY,44,GBP,Pound Sterling,"en,pt",EU,Saint Helier,Crown dependency of GB
+JO,Jordan,JOR,962,JOD,Jordanian Dinar,"ar-JO,en",AS,Amman,Independent
+KZ,Kazakhstan,KAZ,7,KZT,Tenge,"kk,ru",AS,Astana,Independent
+KE,Kenya,KEN,254,KES,Kenyan Shilling,"en-KE,sw-KE",AF,Nairobi,Independent
+KI,Kiribati,KIR,686,AUD,Australian Dollar,"en-KI,gil",OC,Tarawa,Independent
+KW,Kuwait,KWT,965,KWD,Kuwaiti Dinar,"ar-KW,en",AS,Kuwait City,Independent
+KG,Kyrgyzstan,KGZ,996,KGS,Som,"ky,uz,ru",AS,Bishkek,Independent
+LA,Laos,LAO,856,LAK,Kip,"lo,fr,en",AS,Vientiane,Independent
+LV,Latvia,LVA,371,EUR,Euro,"lv,ru,lt",EU,Riga,Independent
+LB,Lebanon,LBN,961,LBP,Lebanese Pound,"ar-LB,fr-LB,en,hy",AS,Beirut,Independent
+LS,Lesotho,LSO,266,ZAR,Rand,"en-LS,st,zu,xh",AF,Maseru,Independent
+LR,Liberia,LBR,231,LRD,Liberian Dollar,en-LR,AF,Monrovia,Independent
+LY,Libya,LBY,218,LYD,Libyan Dinar,"ar-LY,it,en",AF,Tripoli,Independent
+LI,Liechtenstein,LIE,423,CHF,Swiss Franc,de-LI,EU,Vaduz,Independent
+LT,Lithuania,LTU,370,EUR,Euro,"lt,ru,pl",EU,Vilnius,Independent
+LU,Luxembourg,LUX,352,EUR,Euro,"lb,de-LU,fr-LU",EU,Luxembourg,Independent
+MO,Macau,MAC,853,MOP,Pataca,"zh,zh-MO,pt",AS,Macao,Part of CN
+MK,Macedonia,MKD,389,MKD,Denar,"mk,sq,tr,rmm,sr",EU,Skopje,Independent
+MG,Madagascar,MDG,261,MGA,Malagasy Ariary,"fr-MG,mg",AF,Antananarivo,Independent
+MW,Malawi,MWI,265,MWK,Kwacha,"ny,yao,tum,swk",AF,Lilongwe,Independent
+MY,Malaysia,MYS,60,MYR,Malaysian Ringgit,"ms-MY,en,zh,ta,te,ml,pa,th",AS,Kuala Lumpur,Independent
+MV,Maldives,MDV,960,MVR,Rufiyaa,"dv,en",AS,Male,Independent
+ML,Mali,MLI,223,XOF,CFA Franc BCEAO,"fr-ML,bm",AF,Bamako,Independent
+MT,Malta,MLT,356,EUR,Euro,"mt,en-MT",EU,Valletta,Independent
+MH,Marshall Islands,MHL,692,USD,US Dollar,"mh,en-MH",OC,Majuro,Independent
+MQ,Martinique,MTQ,596,EUR,Euro,fr-MQ,NA,Fort-de-France,Part of FR
+MR,Mauritania,MRT,222,MRO,Ouguiya,"ar-MR,fuc,snk,fr,mey,wo",AF,Nouakchott,Independent
+MU,Mauritius,MUS,230,MUR,Mauritius Rupee,"en-MU,bho,fr",AF,Port Louis,Independent
+YT,Mayotte,MYT,262,EUR,Euro,fr-YT,AF,Mamoudzou,Part of FR
+MX,Mexico,MEX,52,MXN,Mexican Peso,es-MX,NA,Mexico City,Independent
+FM,Micronesia,FSM,691,USD,US Dollar,"en-FM,chk,pon,yap,kos,uli,woe,nkr,kpg",OC,Palikir,Independent
+MD,Moldova,MDA,373,MDL,Moldovan Leu,"ro,ru,gag,tr",EU,Chisinau,Independent
+MC,Monaco,MCO,377,EUR,Euro,"fr-MC,en,it",EU,Monaco,Independent
+MN,Mongolia,MNG,976,MNT,Tugrik,"mn,ru",AS,Ulan Bator,Independent
+ME,Montenegro,MNE,382,EUR,Euro,"sr,hu,bs,sq,hr,rom",EU,Podgorica,Independent
+MS,Montserrat,MSR,1-664,XCD,East Caribbean Dollar,en-MS,NA,Plymouth,Territory of GB
+MA,Morocco,MAR,212,MAD,Moroccan Dirham,"ar-MA,fr",AF,Rabat,Independent
+MZ,Mozambique,MOZ,258,MZN,Mozambique Metical,"pt-MZ,vmw",AF,Maputo,Independent
+MM,Myanmar,MMR,95,MMK,Kyat,my,AS,Nay Pyi Taw,Independent
+NA,Namibia,NAM,264,ZAR,Rand,"en-NA,af,de,hz,naq",AF,Windhoek,Independent
+NR,Nauru,NRU,674,AUD,Australian Dollar,"na,en-NR",OC,Yaren,Independent
+NP,Nepal,NPL,977,NPR,Nepalese Rupee,"ne,en",AS,Kathmandu,Independent
+NL,Netherlands,NLD,31,EUR,Euro,"nl-NL,fy-NL",EU,Amsterdam,Independent
+NC,New Caledonia,NCL,687,XPF,CFP Franc,fr-NC,OC,Noumea,Territory of FR
+NZ,New Zealand,NZL,64,NZD,New Zealand Dollar,"en-NZ,mi",OC,Wellington,Independent
+NI,Nicaragua,NIC,505,NIO,Cordoba Oro,"es-NI,en",NA,Managua,Independent
+NE,Niger,NER,227,XOF,CFA Franc BCEAO,"fr-NE,ha,kr,dje",AF,Niamey,Independent
+NG,Nigeria,NGA,234,NGN,Naira,"en-NG,ha,yo,ig,ff",AF,Abuja,Independent
+NU,Niue,NIU,683,NZD,New Zealand Dollar,"niu,en-NU",OC,Alofi,Associated with NZ
+NF,Norfolk Island,NFK,672,AUD,Australian Dollar,en-NF,OC,Kingston,Territory of AU
+KP,North Korea,PRK,850,KPW,North Korean Won,ko-KP,AS,Pyongyang,Independent
+MP,Northern Mariana Islands,MNP,1-670,USD,US Dollar,"fil,tl,zh,ch-MP,en-MP",OC,Saipan,Commonwealth of US
+NO,Norway,NOR,47,NOK,Norwegian Krone,"no,nb,nn,se,fi",EU,Oslo,Independent
+OM,Oman,OMN,968,OMR,Rial Omani,"ar-OM,en,bal,ur",AS,Muscat,Independent
+PK,Pakistan,PAK,92,PKR,Pakistan Rupee,"ur-PK,en-PK,pa,sd,ps,brh",AS,Islamabad,Independent
+PW,Palau,PLW,680,USD,US Dollar,"pau,sov,en-PW,tox,ja,fil,zh",OC,Melekeok,Independent
+PS,Palestine,PSE,970,,No universal currency,ar-PS,AS,East Jerusalem,In contention
+PA,Panama,PAN,507,USD,US Dollar,"es-PA,en",NA,Panama City,Independent
+PG,Papua New Guinea,PNG,675,PGK,Kina,"en-PG,ho,meu,tpi",OC,Port Moresby,Independent
+PY,Paraguay,PRY,595,PYG,Guarani,"es-PY,gn",SA,Asuncion,Independent
+PE,Peru,PER,51,PEN,Nuevo Sol,"es-PE,qu,ay",SA,Lima,Independent
+PH,Philippines,PHL,63,PHP,Philippine Peso,"tl,en-PH,fil",AS,Manila,Independent
+PN,Pitcairn Islands,PCN,870,NZD,New Zealand Dollar,en-PN,OC,Adamstown,Territory of GB
+PL,Poland,POL,48,PLN,Zloty,pl,EU,Warsaw,Independent
+PT,Portugal,PRT,351,EUR,Euro,"pt-PT,mwl",EU,Lisbon,Independent
+PR,Puerto Rico,PRI,1,USD,US Dollar,"en-PR,es-PR",NA,San Juan,Commonwealth of US
+QA,Qatar,QAT,974,QAR,Qatari Rial,"ar-QA,es",AS,Doha,Independent
+RO,Romania,ROU,40,RON,New Romanian Leu,"ro,hu,rom",EU,Bucharest,Independent
+RU,Russia,RUS,7,RUB,Russian Ruble,"ru,tt,xal,cau,ady,kv,ce,tyv,cv,udm,tut,mns,bua,myv,mdf,chm,ba,inh,tut,kbd,krc,ava,sah,nog",EU,Moscow,Independent
+RW,Rwanda,RWA,250,RWF,Rwanda Franc,"rw,en-RW,fr-RW,sw",AF,Kigali,Independent
+RE,Réunion,REU,262,EUR,Euro,fr-RE,AF,Saint-Denis,Part of FR
+WS,Samoa,WSM,685,WST,Tala,"sm,en-WS",OC,Apia,Independent
+SM,San Marino,SMR,378,EUR,Euro,it-SM,EU,San Marino,Independent
+SA,Saudi Arabia,SAU,966,SAR,Saudi Riyal,ar-SA,AS,Riyadh,Independent
+SN,Senegal,SEN,221,XOF,CFA Franc BCEAO,"fr-SN,wo,fuc,mnk",AF,Dakar,Independent
+RS,Serbia,SRB,381 p,RSD,Serbian Dinar,"sr,hu,bs,rom",EU,Belgrade,Independent
+SC,Seychelles,SYC,248,SCR,Seychelles Rupee,"en-SC,fr-SC",AF,Victoria,Independent
+SL,Sierra Leone,SLE,232,SLL,Leone,"en-SL,men,tem",AF,Freetown,Independent
+SG,Singapore,SGP,65,SGD,Singapore Dollar,"cmn,en-SG,ms-SG,ta-SG,zh-SG",AS,Singapore,Independent
+SX,Sint Maarten,SXM,1-721,ANG,Netherlands Antillean Guilder,"nl,en",NA,Philipsburg,Part of NL
+SK,Slovakia,SVK,421,EUR,Euro,"sk,hu",EU,Bratislava,Independent
+SI,Slovenia,SVN,386,EUR,Euro,"sl,sh",EU,Ljubljana,Independent
+SB,Solomon Islands,SLB,677,SBD,Solomon Islands Dollar,"en-SB,tpi",OC,Honiara,Independent
+SO,Somalia,SOM,252,SOS,Somali Shilling,"so-SO,ar-SO,it,en-SO",AF,Mogadishu,Independent
+ZA,South Africa,ZAF,27,ZAR,Rand,"zu,xh,af,nso,en-ZA,tn,st,ts,ss,ve,nr",AF,Pretoria,Independent
+GS,South Georgia & South Sandwich Islands,SGS,500,,,en,AN,Grytviken,Territory of GB
+KR,South Korea,KOR,82,KRW,Won,"ko-KR,en",AS,Seoul,Independent
+SS,South Sudan,SSD,211,SSP,South Sudanese Pound,en,AF,Juba,Independent
+ES,Spain,ESP,34,EUR,Euro,"es-ES,ca,gl,eu,oc",EU,Madrid,Independent
+LK,Sri Lanka,LKA,94,LKR,Sri Lanka Rupee,"si,ta,en",AS,Colombo,Independent
+BL,St. Barthélemy,BLM,590,EUR,Euro,fr,NA,Gustavia,Part of FR
+SH,St. Helena,SHN,290 n,SHP,Saint Helena Pound,en-SH,AF,Jamestown,Territory of GB
+KN,St. Kitts & Nevis,KNA,1-869,XCD,East Caribbean Dollar,en-KN,NA,Basseterre,Independent
+LC,St. Lucia,LCA,1-758,XCD,East Caribbean Dollar,en-LC,NA,Castries,Independent
+MF,St. Martin,MAF,590,EUR,Euro,fr,NA,Marigot,Part of FR
+PM,St. Pierre & Miquelon,SPM,508,EUR,Euro,fr-PM,NA,Saint-Pierre,Part of FR
+VC,St. Vincent & Grenadines,VCT,1-784,XCD,East Caribbean Dollar,"en-VC,fr",NA,Kingstown,Independent
+SD,Sudan,SDN,249,SDG,Sudanese Pound,"ar-SD,en,fia",AF,Khartoum,Independent
+SR,Suriname,SUR,597,SRD,Surinam Dollar,"nl-SR,en,srn,hns,jv",SA,Paramaribo,Independent
+SJ,Svalbard & Jan Mayen,SJM,47,NOK,Norwegian Krone,"no,ru",EU,Longyearbyen,Territory of NO
+SZ,Swaziland,SWZ,268,SZL,Lilangeni,"en-SZ,ss-SZ",AF,Mbabane,Independent
+SE,Sweden,SWE,46,SEK,Swedish Krona,"sv-SE,se,sma,fi-SE",EU,Stockholm,Independent
+CH,Switzerland,CHE,41,CHF,Swiss Franc,"de-CH,fr-CH,it-CH,rm",EU,Bern,Independent
+SY,Syria,SYR,963,SYP,Syrian Pound,"ar-SY,ku,hy,arc,fr,en",AS,Damascus,Independent
+ST,São Tomé & Príncipe,STP,239,STD,Dobra,pt-ST,AF,Sao Tome,Independent
+TW,Taiwan,TWN,886,,,"zh-TW,zh,nan,hak",AS,Taipei,Independent
+TJ,Tajikistan,TJK,992,TJS,Somoni,"tg,ru",AS,Dushanbe,Independent
+TZ,Tanzania,TZA,255,TZS,Tanzanian Shilling,"sw-TZ,en,ar",AF,Dodoma,Independent
+TH,Thailand,THA,66,THB,Baht,"th,en",AS,Bangkok,Independent
+TL,Timor-Leste,TLS,670,USD,US Dollar,"tet,pt-TL,id,en",OC,Dili,Independent
+TG,Togo,TGO,228,XOF,CFA Franc BCEAO,"fr-TG,ee,hna,kbp,dag,ha",AF,Lome,Independent
+TK,Tokelau,TKL,690,NZD,New Zealand Dollar,"tkl,en-TK",OC,,Territory of NZ
+TO,Tonga,TON,676,TOP,Pa’anga,"to,en-TO",OC,Nuku'alofa,Independent
+TT,Trinidad & Tobago,TTO,1-868,TTD,Trinidad and Tobago Dollar,"en-TT,hns,fr,es,zh",NA,Port of Spain,Independent
+TN,Tunisia,TUN,216,TND,Tunisian Dinar,"ar-TN,fr",AF,Tunis,Independent
+TR,Turkey,TUR,90,TRY,Turkish Lira,"tr-TR,ku,diq,az,av",AS,Ankara,Independent
+TM,Turkmenistan,TKM,993,TMT,Turkmenistan New Manat,"tk,ru,uz",AS,Ashgabat,Independent
+TC,Turks & Caicos Islands,TCA,1-649,USD,US Dollar,en-TC,NA,Cockburn Town,Territory of GB
+TV,Tuvalu,TUV,688,AUD,Australian Dollar,"tvl,en,sm,gil",OC,Funafuti,Independent
+UM,U.S. Outlying Islands,UMI,,,,en-UM,OC,,Territories of US
+VI,U.S. Virgin Islands,VIR,1-340,USD,US Dollar,en-VI,NA,Charlotte Amalie,Territory of US
+GB,UK,GBR,44,GBP,Pound Sterling,"en-GB,cy-GB,gd",EU,London,Independent
+US,US,USA,1,USD,US Dollar,"en-US,es-US,haw,fr",NA,Washington,Independent
+UG,Uganda,UGA,256,UGX,Uganda Shilling,"en-UG,lg,sw,ar",AF,Kampala,Independent
+UA,Ukraine,UKR,380,UAH,Hryvnia,"uk,ru-UA,rom,pl,hu",EU,Kiev,Independent
+AE,United Arab Emirates,ARE,971,AED,UAE Dirham,"ar-AE,fa,en,hi,ur",AS,Abu Dhabi,Independent
+UY,Uruguay,URY,598,UYU,Peso Uruguayo,es-UY,SA,Montevideo,Independent
+UZ,Uzbekistan,UZB,998,UZS,Uzbekistan Sum,"uz,ru,tg",AS,Tashkent,Independent
+VU,Vanuatu,VUT,678,VUV,Vatu,"bi,en-VU,fr-VU",OC,Port Vila,Independent
+VA,Vatican City,VAT,39-06,EUR,Euro,"la,it,fr",EU,Vatican City,Independent
+VE,Venezuela,VEN,58,VEF,Bolivar,es-VE,SA,Caracas,Independent
+VN,Vietnam,VNM,84,VND,Dong,"vi,en,fr,zh,km",AS,Hanoi,Independent
+WF,Wallis & Futuna,WLF,681,XPF,CFP Franc,"wls,fud,fr-WF",OC,Mata Utu,Territory of FR
+EH,Western Sahara,ESH,212,MAD,Moroccan Dirham,"ar,mey",AF,El-Aaiun,In contention
+YE,Yemen,YEM,967,YER,Yemeni Rial,ar-YE,AS,Sanaa,Independent
+ZM,Zambia,ZMB,260,ZMW,Zambian Kwacha,"en-ZM,bem,loz,lun,lue,ny,toi",AF,Lusaka,Independent
+ZW,Zimbabwe,ZWE,263,ZWL,Zimbabwe Dollar,"en-ZW,sn,nr,nd",AF,Harare,Independent
+AX,Åland Islands,ALA,358,EUR,Euro,sv-AX,EU,Mariehamn,Part of FI

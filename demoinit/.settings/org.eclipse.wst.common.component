@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="demoinit">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="sqldbconlib-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/sqldbconlib/sqldbconlib">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="usercomp-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/usercomp/usercomp">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="userfsm-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/userfsm/userfsm">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="entitylib-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/entitylib/entitylib">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="karyonlib-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/karyonlib/karyonlib">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="demoinit"/>
+        <property name="java-output-path" value="/demoinit/target/classes"/>
+    </wb-module>
+</project-modules>

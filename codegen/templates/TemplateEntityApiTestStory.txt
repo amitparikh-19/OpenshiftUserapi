@@ -1,0 +1,31 @@
+TemplateEntity API Tests
+
+Scenario: Create TemplateEntity record
+Given user as 'sysadmin' and password as 'su3spense' and restFul api url for TemplateEntity '/templateEntityapi/templateEntitys'
+When http POST request is sent for TemplateEntity
+Then TemplateEntity created
+
+Scenario: Read one TemplateEntity record
+Given X-AUTH-TOKEN and a restFul api url for TemplateEntity
+When http GET request is sent with unique id for TemplateEntity
+Then TemplateEntity record with given id is fetched
+
+Scenario: Read all TemplateEntity records
+Given X-AUTH-TOKEN and a restFul api url for TemplateEntity
+When http GET request is sent for TemplateEntity
+Then all TemplateEntity records are fetched
+
+Scenario: Read all TemplateEntity records pageable
+Given X-AUTH-TOKEN and a restFul api url for TemplateEntity
+When http GET request is sent with sorting and pageable parameters for TemplateEntity
+Then TemplateEntity records as per the pageable and sort parameters are fetched
+
+Scenario: Update TemplateEntity record
+Given X-AUTH-TOKEN and a restFul api url for TemplateEntity
+When http PUT request is sent with unique id and data to be changed for TemplateEntity
+Then TemplateEntity record is updated
+
+Scenario: Delete TemplateEntity record
+Given X-AUTH-TOKEN and a restFul api url for TemplateEntity
+When http DELETE request is sent with unique id for TemplateEntity
+Then TemplateEntity record is deleted

@@ -1,0 +1,13 @@
+function checkfail ()
+{
+        if [ $1 -ne 0 ]; then
+                exit 1
+        fi
+}
+
+if [ `echo $0 | grep "^/"` ]; then
+        _EXEC_PATH=`dirname $0`;
+else
+        __PWD=`pwd`
+        _EXEC_PATH=`dirname ${PWD}/$0`
+fi

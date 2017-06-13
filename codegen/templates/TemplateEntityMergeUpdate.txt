@@ -1,0 +1,6 @@
+@Override
+@javax.persistence.Transient
+	public TemplateEntity mergeUpdates(TemplateEntity tobemerged) {
+		//MergeConditions
+		return this;
+	}

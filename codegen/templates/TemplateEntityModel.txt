@@ -1,0 +1,21 @@
+/**
+ * TemplateEntityModel.js
+ **/
+var TemplateEntity = function () {
+    // Constructor, sets the defaults values of the object
+    var templateEntity = function (attributes) {
+        var defaults = {
+        		//Fields      		
+        }
+        _.extend(this, defaults, attributes);
+    };
+    
+    // Class Methods
+    _.extend(templateEntity.prototype, {
+        populateData: function (data) {
+            _.extend(this, data);
+        } 
+    });
+ 
+    return templateEntity;
+}();

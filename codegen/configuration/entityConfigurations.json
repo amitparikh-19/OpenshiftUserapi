@@ -1,0 +1,8 @@
+{
+	"microServiceConfigs": {
+		"entityName": "AuditTrail",
+		"dependentEntities": [
+			"AuthLog"
+		]
+	}
+}
